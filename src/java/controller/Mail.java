@@ -35,8 +35,8 @@ public class Mail
         
 	public void sendEmail() throws MessagingException {
             synchronized(this) {
-                String fromUser = "breezehotel4@gmail.com";  //Enter sender email id
-		String fromUserPassword = "51990083kbu";  //Enter sender gmail password , this will be authenticated by gmail smtp server
+                String fromUser = "";  //Enter sender email id
+		String fromUserPassword = "";  //Enter sender gmail password , this will be authenticated by gmail smtp server
 		String emailHost = "smtp.gmail.com";
 		Transport transport = newSession.getTransport("smtp");
 		transport.connect(emailHost, fromUser, fromUserPassword);
