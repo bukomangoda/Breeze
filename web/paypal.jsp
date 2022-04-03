@@ -6,7 +6,7 @@
     
   </div>
 </div>
-<script src="https://www.paypal.com/sdk/js?client-id=AYhI-rj5aTpzkRlGv3d8hw1hPRwO0Qnhj49SPqnALIXFmEcABoPYltpvnYB6UI53hivJP7rfzIPAKJja&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=********&currency=USD" data-sdk-integration-source="button-factory"></script>
 <script>
 function initPayPalButton() {
   paypal.Buttons({
